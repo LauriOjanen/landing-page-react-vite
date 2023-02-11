@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Main from './components/Main'
 import Card from './components/Card'
 import Testimonials from './components/Testimonials'
+import Contact from './components/Contact'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -13,5 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Main />
     <Card />
     <Testimonials />
+    <Contact />
   </React.StrictMode>,
 )
