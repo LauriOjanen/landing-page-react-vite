@@ -7,6 +7,7 @@ import Main from './components/Main'
 import Card from './components/Card'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,5 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Card />
     <Testimonials />
     <Contact />
+    <Footer />
   </React.StrictMode>,
 )
