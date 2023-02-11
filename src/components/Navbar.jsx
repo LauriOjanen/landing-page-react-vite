@@ -10,10 +10,10 @@ const Navbar = () => {
     //       <li>header link three</li>
     //     </ul>
     // </div>
-    <nav className='w-1/2 mx-auto bg-gray-800 py-2'>
+    <nav className='w-1/2 mx-auto bg-gray-800 py-2 flex'>
      <div className="container mx-auto flex items-center justify-between">
         <div className="text-white text-3xl mx-20">Your Logo</div>
-        <div className="flex mx-20">
+        <div className="mx-20 hidden md:flex">
           <a href="#" className="text-white mr-4 hover:text-gray-400">Home</a>
           <a href="#" className="text-white mr-4 hover:text-gray-400">About</a>
           <a href="#" className="text-white mr-4 hover:text-gray-400">Contact</a>
